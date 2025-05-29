@@ -6,7 +6,7 @@ const mysql = require('mysql2');
 
 // Database connection setup
 const db = mysql.createConnection({
-    host: 'mediumblue-walrus-966639.hostingersite.com',
+    host: 'localhost',
     user: 'u893176204_gighubph',
     password: '@LB&pGR|4b',
     database: 'u893176204_gighubdb'
