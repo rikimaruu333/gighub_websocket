@@ -6,10 +6,10 @@ const mysql = require('mysql2');
 
 // Database connection setup
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'u893176204_gighubph',
-    password: '@LB&pGR|4b',
-    database: 'u893176204_gighubdb'
+    host: 'gondola.proxy.rlwy.net',
+    user: 'root',
+    password: 'jqHslwtamVsXNEaWEUFbxvJnCiPLnZJA',
+    database: 'railway'
 });
 
 db.connect((err) => {
