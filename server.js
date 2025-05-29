@@ -7,6 +7,7 @@ const mysql = require('mysql2');
 // Database connection setup
 const db = mysql.createConnection({
     host: 'gondola.proxy.rlwy.net',
+    port: 24879,
     user: 'root',
     password: 'jqHslwtamVsXNEaWEUFbxvJnCiPLnZJA',
     database: 'railway'
