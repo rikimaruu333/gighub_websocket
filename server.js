@@ -6,10 +6,10 @@ const mysql = require('mysql2');
 
 // Database connection setup
 const db = mysql.createConnection({
-    host: 'sql208.infinityfree.com',
-    user: 'if0_38987496',
-    password: 'gighub2025',
-    database: 'if0_38987496_computerwizard'
+    host: 'mediumblue-walrus-966639.hostingersite.com',
+    user: 'u893176204_gighubph',
+    password: '@LB&pGR|4b',
+    database: 'u893176204_gighubdb'
 });
 
 db.connect((err) => {
